@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") top right;
   background-size: cover;
   position: relative;
 }
@@ -457,6 +457,11 @@ section {
   text-transform: uppercase;
 }
 
+.fotomujer {
+height: 200px;
+width: 500px;
+
+}
 .about .content p {
   margin-bottom: 0;
 }
@@ -564,6 +569,10 @@ section {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
+
+
+
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -681,10 +690,11 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  width: 100%;
+
+  background: rgb(255, 255, 255) no-repeat;
   background-position: center center;
-  background-size: cover;
+  
   position: relative;
 }
 
@@ -695,7 +705,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(14, 16, 17, 0.7);
+ 
 }
 
 .testimonials .section-header {
@@ -704,7 +714,7 @@ section {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #fff;
+  color: #663399;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -718,7 +728,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #663399;
 }
 
 .testimonials .testimonial-item h4 {
@@ -747,8 +757,9 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  font-size: larger;
   margin: 0 auto 15px auto;
-  color: #eee;
+  color: #663399;
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
