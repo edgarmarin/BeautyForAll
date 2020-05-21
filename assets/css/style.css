@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #663399;
+  background: #461e6e;
   color: #fff;
 }
 
@@ -525,7 +525,7 @@ width: 500px;
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/makeup-products.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -691,10 +691,8 @@ width: 500px;
 --------------------------------------------------------------*/
 .testimonials {
   width: 100%;
-
   background: rgb(255, 255, 255) no-repeat;
   background-position: center center;
-  
   position: relative;
 }
 
@@ -1211,7 +1209,7 @@ width: 500px;
 }
 
 #footer .social-links a:hover {
-  background: #f3a200;
+  background: #461e6e;
   color: #fff;
   text-decoration: none;
 }
@@ -1222,4 +1220,10 @@ width: 500px;
 
 #footer .credits {
   font-size: 13px;
+}
+
+#maps{
+  background-image: url("../img/Maps.jpg");
+  height: 30rem;
+  background-position: center top;
 }
