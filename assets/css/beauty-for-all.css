@@ -75,6 +75,15 @@
     font-size: 40px;
 }
 
+
+#natalia{
+    margin-left: 8rem;
+}
+
+#nataliainfo{
+    margin-top: 5rem;
+}
+
 #heroTwo{
     width: 100%;
     height: 100vh;
@@ -268,3 +277,4 @@
       width: 80%;
     }
   }
+
